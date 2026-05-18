@@ -1,0 +1,29 @@
+.footer {
+  background: var(--ink); color: rgba(255,255,255,0.35);
+  padding: 2.5rem 4rem; display: flex; justify-content: space-between;
+  align-items: center; font-size: 0.78rem;
+}
+
+.logo {
+  font-family: var(--serif); color: var(--paper); font-size: 1.1rem;
+  font-weight: 800; letter-spacing: -0.02em;
+  display: flex; align-items: center; gap: 6px;
+}
+.logoDot {
+  width: 8px; height: 8px; background: var(--accent);
+  border-radius: 50%; display: inline-block;
+}
+
+.links { display: flex; gap: 2rem; }
+.links a {
+  color: rgba(255,255,255,0.35); text-decoration: none;
+  transition: color 0.2s; font-size: 0.78rem;
+}
+.links a:hover { color: var(--paper); }
+
+@media (max-width: 960px) {
+  .footer {
+    flex-direction: column; gap: 1rem;
+    text-align: center; padding: 2rem 1.5rem;
+  }
+}
