@@ -2,7 +2,7 @@ import styles from './Portfolio.module.css';
 
 const projects = [
   {
-    href: 'project-restaurant.html',
+    href: 'https://restaurant-psi-bay.vercel.app/',
     thumb: '/Resturant Laptop.png',
     label: 'Restaurant · Concept',
     tags: ['HTML/CSS', 'JavaScript', 'Responsive'],
