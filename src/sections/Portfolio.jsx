@@ -65,7 +65,13 @@ export default function Portfolio() {
 
       <div className={styles.grid}>
         {projects.map((p, i) => (
-          <a href={p.href} className={styles.card} key={i}>
+          <a
+            href={p.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}
+            key={i}
+          >
 
             <div className={styles.thumb}>
 
