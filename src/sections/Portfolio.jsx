@@ -11,7 +11,7 @@ const projects = [
   },
 
   {
-    href: 'project-dental.html',
+    href: 'https://dentist-chi-seven.vercel.app/',
     thumb: '/Dentist Laptop.png',
     label: 'Healthcare · Concept',
     tags: ['Booking System', 'Patient Portal', 'HIPAA'],
@@ -20,7 +20,7 @@ const projects = [
   },
 
   {
-    href: 'project-fitness.html',
+    href: 'https://gym-delta-red-20.vercel.app/',
     thumb: '/Gym Laptop.png',
     label: 'Fitness · Concept',
     tags: ['Membership', 'Booking', 'Mobile App'],
